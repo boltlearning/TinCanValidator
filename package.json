@@ -30,7 +30,7 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "scripts": {
-    "install": "pushd lib && git submodule init && git submodule update && popd",
+    "install": "git submodule init && git submodule update",
     "test": "node test/test.js"
   }
 }
